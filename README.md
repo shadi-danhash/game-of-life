@@ -8,7 +8,7 @@ Welcome to the **Game of Life**! This README will guide you through the installa
     Open your terminal and run:
     ```bash
     git clone https://github.com/shadi-danhash/game-of-life.git
-    cd GOL
+    cd game-of-life
     ```
 
 2. **Install Dependencies**  
