@@ -1,0 +1,27 @@
+canvas {
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+  display: block;
+  margin: 0 auto;
+}
+
+#gameControls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #ddd;
+}
